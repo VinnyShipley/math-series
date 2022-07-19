@@ -74,14 +74,26 @@ def test_lucas_five():
     assert actual == expected
 
 
+def test_sum_fib_two():
+    actual = sum_series(2)
+    expected = 1
+    assert actual == expected
+
+
 def test_sum_fib_three():
     actual = sum_series(3)
     expected = 2
     assert actual == expected
 
 
+def test_sum_lucas_two():
+    actual = sum_series(2, 2)
+    expected = 3
+    assert actual == expected
+
+
 def test_sum_lucas_three():
-    actual = sum_series(3, 2, 1)
+    actual = sum_series(3, 2)
     expected = 4
     assert actual == expected
 

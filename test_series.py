@@ -74,6 +74,7 @@ def test_lucas_five():
     assert actual == expected
 
 
+# Sum Tests
 def test_sum_fib_two():
     actual = sum_series(2)
     expected = 1

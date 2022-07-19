@@ -1,3 +1,4 @@
+# Fibonacci function
 def fibonacci(n):
     if n == 0:
         return 0
@@ -9,6 +10,7 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 
+# Lucas function
 def lucas(n):
     if n == 0:
         return 2
@@ -20,6 +22,7 @@ def lucas(n):
         return lucas(n-1) + lucas(n-2)
 
 
+# Sum series function
 def sum_series(n, def_one=0, def_two=1):
     if def_one == 0 and def_two == 1:
         return fibonacci(n)

@@ -21,4 +21,8 @@ def lucas(n):
 
 
 def sum_series(n, def_one=0, def_two=1):
-    return 'Hello'
+    if def_one == 0 and def_two == 1:
+        return fibonacci(n)
+
+    if def_one == 2 and def_two == 1:
+        return lucas(n)

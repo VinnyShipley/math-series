@@ -18,3 +18,7 @@ def lucas(n):
 
     else:
         return lucas(n-1) + lucas(n-2)
+
+
+def sum_series():
+    return "hello"

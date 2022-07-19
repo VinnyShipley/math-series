@@ -20,5 +20,5 @@ def lucas(n):
         return lucas(n-1) + lucas(n-2)
 
 
-def sum_series():
-    return "hello"
+def sum_series(n, def_one=0, def_two=1):
+    return 'Hello'

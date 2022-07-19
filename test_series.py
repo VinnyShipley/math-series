@@ -73,5 +73,14 @@ def test_lucas_five():
     expected = 11
     assert actual == expected
 
-def test_sum_init():
-    return 'hello'
+
+def test_sum_fib_three():
+    actual = sum_series(3)
+    expected = 2
+    assert actual == expected
+
+
+def test_sum_lucas_three():
+    actual = sum_series(3, 2, 1)
+    expected = 4
+    assert actual == expected
